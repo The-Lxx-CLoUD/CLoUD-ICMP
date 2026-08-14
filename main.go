@@ -540,6 +540,10 @@ func printHelp() {
 }
 
 func init() {
+	flag.Usage = func() {
+		fmt.Print(helpMessage)
+	}
+
 	flag.StringVar(&intAddr, "i", "", "Interface IP to listen on (required)")
 	flag.StringVar(&intAddr, "interface", "", "Interface IP to listen on (required, alias for -i)")
 	flag.StringVar(&trgAddr, "t", "", "Target address to stablish tunnel (required)")
