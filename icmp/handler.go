@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/The-Lxx-CLoUD/CLoUD-ICMP"
+	"https://github.com/The-Lxx-CLoUD/CLoUD-ICMP"
 )
 
 func toASCII(data []byte) string {
