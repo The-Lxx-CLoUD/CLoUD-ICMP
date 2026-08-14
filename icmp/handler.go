@@ -226,6 +226,3 @@ func CreateDstUnreachable(id, seq uint16, msgType uint8, secretKey, iv, data []b
 	binary.BigEndian.PutUint16(packet[2:4], checksum)
 	return packet
 }
-
-##github = @The-Lxx-CLoUD
-##telegram = @lxxcloud
