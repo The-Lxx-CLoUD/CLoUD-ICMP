@@ -518,7 +518,7 @@ func secretKeyGen() string {
 }
 
 func printBanner(keyID string) {
-	banner := fmt.Sprintf(bannerFormat, toolName, toolVersion, releaseDate, authorEmail, authorTelegram)
+	banner := fmt.Sprintf(bannerFormat, toolName, myGithub, myTelegram)
 	fmt.Printf(banner, keyID)
 }
 func printConfig(intAddr, trgAddr string, serverMode, verbose bool) {
