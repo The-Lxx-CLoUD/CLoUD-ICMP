@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"https://github.com/The-Lxx-CLoUD/CLoUD-ICMP/crypto"
-	"https://github.com/The-Lxx-CLoUD/CLoUD-ICMP/icmp"
+	"github.com/The-Lxx-CLoUD/CLoUD-ICMP/crypto"
+	"github.com/The-Lxx-CLoUD/CLoUD-ICMP/icmp"
 )
 
 const (
