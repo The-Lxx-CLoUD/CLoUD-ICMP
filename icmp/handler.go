@@ -12,7 +12,6 @@ import (
 
     "github.com/The-Lxx-CLoUD/CLoUD-ICMP/crypto"
 	"github.com/The-Lxx-CLoUD/CLoUD-ICMP/icmp"
-	"github.com/The-Lxx-CLoUD/CLoUD-ICMP"
 )
 
 func toASCII(data []byte) string {
