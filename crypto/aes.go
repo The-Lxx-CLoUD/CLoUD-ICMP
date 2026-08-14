@@ -1,3 +1,6 @@
+##github = @The-Lxx-CLoUD
+##telegram = @lxxcloud
+
 package crypto
 
 import (

@@ -1,4 +1,6 @@
 package icmp
+##github = @The-Lxx-CLoUD
+##telegram = @lxxcloud
 
 import "net"
 
