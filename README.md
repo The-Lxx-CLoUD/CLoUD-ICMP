@@ -143,7 +143,7 @@ while you are connected to the client.
 <h1 align="center">🧑‍💻 Final Demo 🧑‍💻</h1>
 
 <p align="center">
-  <img src="file/vid.gif" width="1080">
+  <img src="file/vid.gif" width="2100">
 
 ##
 ##
