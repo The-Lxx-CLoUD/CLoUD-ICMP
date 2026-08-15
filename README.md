@@ -144,4 +144,10 @@ while you are connected to the client.
 
 <p align="center">
   <img src="file/vid.gif" width="1080">
+
   
+  ## 👤 Author :
+
+- GitHub : [@TheLxxCLoUD](https://github.com/The-Lxx-CLoUD)
+- Telegram : [@lxxcloud](https://t.me/lxxcloud)
+
