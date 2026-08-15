@@ -23,6 +23,7 @@ const (
 	myGithub = "https://github.com/The-Lxx-CLoUD"
 	myTelegram = "https://t.me/lxxcloud"
 	bannerFormat   = `
+
 ╔════════════════════════════════════════════════╗
 ║                                                ║ 
 ║   ██████╗ ██╗      ██████╗  ██╗   ██╗ ██████╗  ║
@@ -33,14 +34,19 @@ const (
 ║   ╚═════╝ ╚══════╝ ╚═════╝   ╚═════╝  ╚═════╝  ║
 ║                                                ║
 ║      ██╗  ██████╗ ███╗   ███╗ ██████╗          ║
-║      ██║ ██╔════╝ ████╗ ████║ ██╔══██╗         ║
+║      ██║ ██╔════╝ ████╗ ████║ ██╔══██╗         ║ 
 ║      ██║ ██║      ██╔████╔██║ ██████╔╝         ║
 ║      ██║ ██║      ██║╚██╔╝██║ ██╔═══╝          ║
 ║      ██║ ╚██████╗ ██║ ╚═╝ ██║ ██║              ║
 ║      ╚═╝  ╚═════╝ ╚═╝     ╚═╝ ╚═╝              ║
 ║                                                ║
+║  myGithub = https://github.com/The-Lxx-CLoUD   ║
+║    myTelegram = https://t.me/lxxcloud          ║
+║                                                ║
 ╚════════════════════════════════════════════════╝
+
 `
+
 	helpMessage = `
 Usage: %s [options]
 
@@ -518,9 +524,11 @@ func secretKeyGen() string {
 }
 
 func printBanner(keyID string) {
-	banner := fmt.Sprintf(bannerFormat, toolName, myGithub, myTelegram)
-	fmt.Printf(banner, keyID)
+	banner := fmt.Sprintf(bannerFormat, keyID)
+	fmt.Print(banner) 
 }
+
+
 func printConfig(intAddr, trgAddr string, serverMode, verbose bool) {
 	fmt.Println("---------------------------------------------------------")
 	fmt.Printf("| %-20s | %-30s |\n", "Listening Interface", intAddr)
