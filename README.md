@@ -1,4 +1,4 @@
-<h1 align="center">CLoUD-ICM.P</h1>
+<h1 align="center">CLoUD-ICMP</h1>
 <p align="center">
 <i> 🔥 providing an encrypted reverse shell channel over ICMP packets 🔥  </i>
 </p>
